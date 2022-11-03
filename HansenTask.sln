@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskUI", "TaskUI\TaskUI.csproj", "{A8D131AB-D1C8-4C4A-ACA4-847D9D630AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansenCore", "HansenCore\HansenCore.csproj", "{88E562F6-E813-410E-BFFF-7A98408C2BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansenTests", "HansenTests\HansenTests.csproj", "{03A1FD51-CFFB-4409-9C80-E1D67412EF11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansenInterface", "HansenInterface\HansenInterface.csproj", "{B651917A-DF0D-4EDC-99C3-15A936CA97AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8D131AB-D1C8-4C4A-ACA4-847D9D630AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D131AB-D1C8-4C4A-ACA4-847D9D630AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D131AB-D1C8-4C4A-ACA4-847D9D630AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D131AB-D1C8-4C4A-ACA4-847D9D630AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E562F6-E813-410E-BFFF-7A98408C2BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E562F6-E813-410E-BFFF-7A98408C2BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E562F6-E813-410E-BFFF-7A98408C2BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E562F6-E813-410E-BFFF-7A98408C2BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A1FD51-CFFB-4409-9C80-E1D67412EF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A1FD51-CFFB-4409-9C80-E1D67412EF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A1FD51-CFFB-4409-9C80-E1D67412EF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A1FD51-CFFB-4409-9C80-E1D67412EF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B651917A-DF0D-4EDC-99C3-15A936CA97AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B651917A-DF0D-4EDC-99C3-15A936CA97AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B651917A-DF0D-4EDC-99C3-15A936CA97AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B651917A-DF0D-4EDC-99C3-15A936CA97AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/TaskUI/bin/Debug/net6.0/TaskUI.dll",
+            "args": [
+                "TSS",
+                "5",
+                "3",
+                "0",
+                "1",
+                "2",
+                "7"
+            ],
+            "cwd": "${workspaceFolder}/TaskUI",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".net core attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "$(command:pickProcess)"
+        }
+    ]
+}
